@@ -11,7 +11,7 @@ export default defineConfig({
   define: {
     // Expose environment variables to the client-side
     'process.env': {
-      VITE_API_BASE_URL: JSON.stringify(process.env.VITE_API_BASE_URL || 'http://localhost:5000'),
+      VITE_API_BASE_URL: JSON.stringify(process.env.VITE_API_BASE_URL || 'https://whatsapp-backend-5zpw.onrender.com'),
     },
   },
 })
